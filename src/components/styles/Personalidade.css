@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body {
+	background-color: #f0f8ff;
+} */
+
+/* #imgLogin {
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+
+#navMenu {
+	display: inline-block;
+} */
+
+#LoginCadastro {
+	border-radius: 20%;
+}
+
+img {
+	width: 15%;
+	height: 10%;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+}
+
+nav a.ativo {
+	font-weight: bold;
+}
+
+main {
+	margin: 20px;
+}
+
+.submit-lente {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 80;
+	border: none;
+	background: transparent;
+	outline: none;
+}
+
+.submit-line {
+	display: flex;
+	width: 100%;
+	max-width: 300px;
+	height: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.submit-line input {
+	flex-grow: 1;
+	height: 100%;
+	width: 100%;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: skyblue;
+	padding: 10px;
+}
+
+.menu nav {
+	display: flex;
+	align-items: center;
+	font-size: medium;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container-search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-personalites {
+	margin-left: 25%;
+	margin-right: 10%;
+	border-radius: 5px;
+	border: solid 3px aliceblue;
+}
+
+hr {
+	margin-left: 10%;
+	margin-right: 15%;
+}
+
+.cardDados {
+	margin: 20px;
+	margin-left: 15%;
+	margin-right: 10%;
+	width: 80%;
+	height: 220px;
+	padding-bottom: 0;
+}
+
+.cardImg {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#botaoCurtir {
+	border: none;
+	cursor: pointer;
+	margin-left: 10%;
+	background-color: aliceblue;
+	border-radius: 6px;
+}
+
+button img {
+	width: 35px;
+	border-radius: 6px;
+}
+
+.cardText {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 5%;
+	font-size: 15px;
+	font-family: 'Times New Roman', Times, serif;
+}
+

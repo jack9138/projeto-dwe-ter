@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Header from './components/Header';
+import SysRoutes from './SysRoutes';
+import PersonalidadesProvider from './context/PersonalidadesProvider';
 import './App.css';
+import Footer from './components/Footer.js';
+import './components/styles/body.css';
+import UserProvider from './context/UserProvider';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className="body">
+        <BrowserRouter>
+          <Header/>
+          <PersonalidadesProvider>
+            <UserProvider>
+              <SysRoutes />
+            </UserProvider>
+          </PersonalidadesProvider>
+          <Footer/>
+        </BrowserRouter>
+      </div>
     </div>
   );
 }
